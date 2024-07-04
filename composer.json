@@ -8,5 +8,15 @@
             "Rulerpad\\Informator\\": "src/"
         }
     },
-    "require": {}
+    "autoload-dev": {
+        "psr-4": {
+            "Rulerpad\\Informator\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests"
+    }
 }
