@@ -1,0 +1,12 @@
+{
+    "name": "rulerpad/informator",
+    "description": "First information library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rulerpad\\Informator\\": "src/"
+        }
+    },
+    "require": {}
+}
